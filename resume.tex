@@ -12,6 +12,7 @@
 \topmargin -0.4in
 \headsep 0in
 \headheight 0in
+\linespread{1.0}
 
 \begin{document}
 
@@ -19,34 +20,52 @@
 \noindent \Huge \textsc{Trevor Summers Smith} \hfill \small
 % if you edit the address info be sure to keep the & at the beginning of the line, and the \\ at the end of the line
 \begin{tabular}{rr}
-& 880 East 14th Street \\
-& Brooklyn, NY 11230 \\
 & trevorsummerssmith@gmail.com \\
-& Mobile: (917) 796-3605 \\
-& Home: (231) 228-4385
+& Brooklyn, NY \\
+& (917) 796-3605 \\
 \end{tabular}
 
 \normalsize
 
+% Intro description
+\vspace{7 mm}
+\noindent Driven technologist and leader with a proven track record of delivering complex solutions.
+An agile and adept learner who prizes teamwork, ownership, accountability, transparency and humility.
+\vspace{7 mm}
+
 % Start the Body here
 \begin{description}	
-
-% Section: Education
-	\item \textsc{Education} 
-	\begin{description}
-			% Item - Uchicago
-			\item [\textbf{University of Chicago}] Chicago, IL \\
-				Undergraduate Program in Computer Science \\
-				\textsc{GPA}: 3.16 / 4.0 \\
-				\emph{Relevant Coursework}: Discreet Math, Algorithms, Operating Systems, Programming Languages, Software Engineering, Analysis 
-		\end{description}
 
 % Section:  Experience
  	\item \textsc{Work Experience}
 	\begin{description}
-		% Item - Decision Research Lab
-		\item [\textbf{Architect, Developer and Team Leader}]
-		\emph{Vonage, Inc.}, September 2007 - February 2009
+		% Item - Knewton
+		\item [\textbf{May 2011 - Present}] \emph{Director of Platform, Engineering Lead, Engineer, Knewton, Inc.}
+                \\
+                Lead the team responsible for building and scaling Knewton's highly available infrastructure that analyzes millions of student data in real-time to provide recommendations and analytics. The Platform is built on Amazon Web Services (EC2, S3, RDS, DynamoDB) in Java. The Platform internally provides an event-sourced view of the student interaction history, user management and horizontally scaling graph database.
+			\begin{itemize}
+			\item Chief Architect for Platform.
+			\item Established code and design review, unit and integration testing standards across the organization.
+			\item Led the organization from a single monolithic codebase to a horizontally scaling, highly available service-oriented-architecture. 
+			\item Working cross functionally, established \emph{The Knewton Creation Process}  -- a description of the lifecycle of how we develop, support and create products at Knewton from business need, prototyping, beta-rollout, to full production launch and marketing.
+			\item Partnered with Recruiting organization, developed extremely efficient processes minimizing opportunity costs and growing the team from 15 members in technology to over 100.
+                        \item Responsible for planning, budget and deliverables for the Platform team (30 members) as well as technical and product direction for our Platform API business.
+                        \item Full administrative management responsibilities for team.
+			\end{itemize}
+
+		% Item - Bruin
+		\item [\textbf{May 2010 - May 2011}] \emph{Founder and Engineer, Animal Sensor Design}
+                \\
+                Developed \emph{bear collar}: wild life tracking collar that measured the location and movement of large mammals such as bear, deer, elk, etc. These measurements are used by wildlife researchers to determine wildlife cooridoors for highway planning, animal control and research.
+			\begin{itemize}
+			\item Worked with wild life researcher to define product needs that included: 1 year battery life, survival for 1 year of the elements with a temperature range of -12C to 40C, and 2lb weight restriction.
+			\item Developed innovative design that used SMS to transfer the collar data, which reduced cost and data transmission latency by an order of magnitude. Competitors at the time either required the collars to be retrieved to get the data, or transferred over costly satellite networks.
+			\end{itemize}
+
+		% Item - Vonage
+		\item [\textbf{September 2007 - February 2009}] \emph{Architect, Developer and Team Leader, Vonage, Inc.}
+                  \\
+                  Lead developer for the real-time audio servers that routed all calls in the Vonage network.
 			\begin{itemize}
 			 \item Lead developer on RTP (Real-time Transport Protocol)/RTCP (Real-time Control Protocol) servers, a core component in routing all phone calls in the Vonage network. 
 			\item Developed and managed the creation and support of functional, unit and load testing for the RTP/RTCP servers. 
@@ -55,42 +74,34 @@
 			\item Coordinated the implementation of several projects with the Quality Assurance and Production teams. Managed new features and release dates. Reviewed all progress and gave feedback to appropriate groups. 
 			\end{itemize}
 		% Item 
-		\item [Research Assistant] 
-			\emph{University of Chicago Computer Science Department}, March 2004 - September 2006 
+		\item [\textbf{March 2004 - September 2006}] \emph{Research Assistant, University of Chicago Computer Science Department}
 			\begin{itemize}
 				\item Identified and investigated relevant current research in computer vision. 
 				\item Implemented complex algorithms using theoretical knowledge from Discrete Math, Statistics and Algorithmic Theory. 
 			\end{itemize}
-		% Item 
-		\item [Web Designer / Programmer]
-			\emph{Self-employed}, June 2002 - September 2006 
-			\begin{itemize}
-				\item Designed page layouts and programmed web sites for a variety of clients, including a psychiatry practice, an international real estate agency, and a social activism conference.
-				\item  Implemented features such as: shopping cart, content management system, role-based user administration, responsive AJAX UI. 
-				\item Ensured compliance with web standards: HTTP, XML, HTML, XHTML, CSS. 			\item Built webserver from scratch. 
-			\end{itemize}
-		% Item
-		\item [Programmer]
-			\emph{University of Chicago Decision Research Lab}, Spring 2005
-			\begin{itemize}
-				\item Designed and implemented computer interface for psychological study. 
-				\item Communicated with psychology and economics professors in order to explain the concepts behind the computer program and to understand the nuances of study's goals. 
-			\end{itemize}
           \end{description}
-% Section - Skillz
-	\item \textsc{Skills}
-	\begin{description}	
-		% Item - Computer
-		\item [Operating Systems] Linux (Gentoo, Debian, Ubuntu, Fedora, CentOS distributions), Solaris, Mac OS X, Windows NT, Windows XP
-		% Item - Languages
-		\item [Programming / Markup Languages]: Experienced with C, C++, OCaml, SML, Perl, Python, Bash shell scripting, XML, XHTML, CSS, JavaScript (AJAX), SQL, Ruby, PHP; proﬁcient with Java, Android (phone) development, x86, SPARC and Atmel AVR ASM
-		\item [Programs] Apache web server, lighttpd; MySQL, Oracle, SQLite; Xcode, GNU Emacs; GDB, make, gprof; Git, Subversion, CVS; Adobe Photoshop, Dreamweaver; OpenOffice; Microsoft Office
-		\item [Other] Created packages for Redhat, Ubuntu, Gentoo systems; Ruby on Rails (web framework); Doxygen, Ocamldoc
-	\end{description}
-	\item \textsc{References}
+
+% Section: Education
+\vspace{7 mm} % With the current layout 'education' is on page 1
+% and the rest on page 2 and that looks bad. Added this vspace
+% to make it all on the same page
+	\item \textsc{Education} 
 	\begin{description}
-		\item \emph{Available upon request}
-	\end{description}
+			% Item - Uchicago
+			\item [\textbf{University of Chicago}] Chicago, IL \\
+				Pursued B.S. in Computer Science \\
+                                2003 - 2007 \\
+				\textsc{GPA}: 3.16 / 4.0 \\
+		\end{description}
+
+
+% Section - Skillz
+	\item \textsc{Skills \& Interests}
+          \begin{itemize}
+            \item Proficient with Java, Python, OCaml, C, C++, SML, Perl, Bash shell scripting, XML, XHTML, CSS, JavaScript, SQL, Ruby, PHP; x86, SPARC and Atmel AVR ASM.
+            \item I have created and supported production systems with active user bases in the millions in C, Perl, Python and Java. I am an extremely fast learner and pick up and leverage new technologies quickly.
+            \item I meditate and exercise daily.
+          \end{itemize}
 
 \end{description} %(ends list of body)
   
